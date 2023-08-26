@@ -13,7 +13,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func startQuiz() {
+        let vc = storyboard?.instantiateViewController(identifier: "game") as! QuizzerViewController
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
 
 }
 

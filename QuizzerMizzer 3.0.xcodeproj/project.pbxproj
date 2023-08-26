@@ -16,6 +16,7 @@
 		751C079D2A09E43F00FD0EBF /* QuizzerMizzer_3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C079C2A09E43F00FD0EBF /* QuizzerMizzer_3_0Tests.swift */; };
 		751C07A72A09E43F00FD0EBF /* QuizzerMizzer_3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C07A62A09E43F00FD0EBF /* QuizzerMizzer_3_0UITests.swift */; };
 		751C07A92A09E43F00FD0EBF /* QuizzerMizzer_3_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C07A82A09E43F00FD0EBF /* QuizzerMizzer_3_0UITestsLaunchTests.swift */; };
+		751C07B62A09E77500FD0EBF /* QuizzerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751C07B52A09E77500FD0EBF /* QuizzerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		751C07A22A09E43F00FD0EBF /* QuizzerMizzer 3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuizzerMizzer 3.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		751C07A62A09E43F00FD0EBF /* QuizzerMizzer_3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzerMizzer_3_0UITests.swift; sourceTree = "<group>"; };
 		751C07A82A09E43F00FD0EBF /* QuizzerMizzer_3_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzerMizzer_3_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		751C07B52A09E77500FD0EBF /* QuizzerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				751C078E2A09E43F00FD0EBF /* Assets.xcassets */,
 				751C07902A09E43F00FD0EBF /* LaunchScreen.storyboard */,
 				751C07932A09E43F00FD0EBF /* Info.plist */,
+				751C07B52A09E77500FD0EBF /* QuizzerViewController.swift */,
 			);
 			path = "QuizzerMizzer 3.0";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				751C078A2A09E43D00FD0EBF /* ViewController.swift in Sources */,
 				751C07862A09E43D00FD0EBF /* AppDelegate.swift in Sources */,
 				751C07882A09E43D00FD0EBF /* SceneDelegate.swift in Sources */,
+				751C07B62A09E77500FD0EBF /* QuizzerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +455,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "pRajyaguru.QuizzerMizzer-3-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,6 +485,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "pRajyaguru.QuizzerMizzer-3-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
